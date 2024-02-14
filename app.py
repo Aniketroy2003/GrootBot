@@ -22,8 +22,8 @@ def generate_response(prompt, api_key):
     return response.text
 
 def main():
-    st.title("Chat with AI")
-    
+    st.title("Groot (The chat bot)")
+    st.markdown("How may I help you?")
     # Input field for OpenAI API key
     api_key = "AIzaSyDVwznMhukxzTq9PAv67y-dD8TGnHKLa3M"
     
